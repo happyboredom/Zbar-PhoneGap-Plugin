@@ -43,6 +43,13 @@
 						symbol.data];
 	[ webView stringByEvaluatingJavaScriptFromString:retStr ];	
 	
+        // if you need a javascript callback I would put it here (example)
+        // the callback can use the barcode data that was stored in window.plugins.ZbarPlug.data
+        // NSString* callbackStr = [ NSString stringWithFormat:@"window.plugins.ZbarPlug.finished_callback()"];
+
+        // this will execute the your javascript callback
+        //[ webView stringByEvaluatingJavaScriptFromString:callbackStr ];
+
 	[info objectForKey: UIImagePickerControllerOriginalImage];
 	
     // ADD: dismiss the controller (NB dismiss from the *reader*!)
