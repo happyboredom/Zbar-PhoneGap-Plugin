@@ -1,0 +1,6 @@
+As author of this ZBar plugin implementation, I highly recommend that you use the ZXing plugin that is part of the PhoneGap source tree.
+
+https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/BarcodeScanner
+
+In January 2011 somebody added a plugin implementation of an iPhone-compatible barcode reader to the PhoneGap source tree on the official PhoneGap release. The "official" implementation uses ZXing instead of ZBar. 
+
